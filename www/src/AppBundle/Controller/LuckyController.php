@@ -47,4 +47,23 @@ class LuckyController extends Controller
 
         return new JsonResponse($data);
     }
+
+    /**
+     * @Route("api/darksoulscraft/version")
+     */
+    public function apiDarkSouls()
+    {
+        $data = array(
+            '0.1.0' => array(
+                'minecraft' => '1.7.10',
+                'forge' => '10.13.4.1558',
+            ),
+            '0.1.1' => array(
+                'minecraft' => '1.7.10',
+                'forge' => '10.13.4.1614'
+            ),
+        );
+
+        return new JsonResponse($data);
+    }
 }

@@ -1,0 +1,41 @@
+<?php
+
+namespace AppBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Class Product
+ * @package AppBundle\Entity
+ *
+ * @ORM\Entity
+ * @ORM\Table(name="product")
+ */
+class Product
+{
+    /**
+     * @var
+     * @ORM\Column(type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var
+     * @ORM\Column(type="string", length=100)
+     */
+    private $name;
+
+    /**
+     * @var
+     * @ORM\Column(type="decimal", scale=2)
+     */
+    private $price;
+
+    /**
+     * @var
+     * @ORM\Column(type="text")
+     */
+    private $description;
+}
