@@ -1,0 +1,39 @@
+/*  Color palette: http://paletton.com/palette.php?uid=50u0u0kw0w0jyC%2BoRxVy4oIDfjr */
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #9B0000;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    text-shadow: 3px 3px 1px #C55900;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+html {
+    background-color: #FF7400;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FFAA00;
+    padding: 0 20px 20px 20px;
+    border: 5px solid #C55900;
+}
+
+img {
+    border: 3px solid #C55900;
+    display: block;
+    margin: 0 auto;
+}
